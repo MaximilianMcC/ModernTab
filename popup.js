@@ -6,3 +6,12 @@ titleInput.addEventListener("input", () => {
         console.log("Updated text");
     });
 });
+
+window.addEventListener("load", () => {
+
+    // Get the new tab text
+    chrome.storage.sync.get("text", (data) => {
+
+        titleText.value = data.text;
+    });
+});
