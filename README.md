@@ -4,3 +4,13 @@
 Modern tab is a very simple new tag page.
 
 [Chrome Webstore Download link](https://chrome.google.com/webstore/detail/modern-tab/nhinknbcpfcdhpifbpkkbemkbejikidm?hl=en&authuser=0)
+
+<hr>
+
+## Planned features
+- [x] Ability to change the new tab text
+- [ ] Way to add custom themes. Dark and light should be added by default
+- [ ] Clock that displays current time and date
+- [ ] Twemoji emojis
+- [ ] Bookmarked website thing
+- [ ] Way to set the background to an image
