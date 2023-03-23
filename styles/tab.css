@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 7em;
+  text-transform: uppercase;
+}
+
+input, button {
+  font-size: 2em;
+  border: none;
+  outline: none;
+}
+
+input[type=text] {
+  width: 700px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+input[type=submit] {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+/* Dark theme */
+.dark-theme {
+  background-color: #1D1D1D;
+}
+.dark-theme * {
+  color: white;
+}
+.dark-theme input, .dark-theme button {
+  background-color: #150E0E;
+}
+.dark-theme input[type=text] {
+  color: #757575;
+}
+.dark-theme input[type=submit] {
+  color: white;
+}
+.dark-theme input[type=submit]:hover {
+  background-color: #150E0E;
+}
+
+/* Light theme */
+.light-theme {
+  background-color: white;
+}
+.light-theme * {
+  color: black;
+}
+.light-theme input, .light-theme button {
+  background-color: #EFEFEF;
+}
+.light-theme input[type=text] {
+  color: #757575;
+}
+.light-theme input[type=submit] {
+  color: black;
+}
+.light-theme input[type=submit]:hover {
+  background-color: rgba(228, 228, 228, 0.8941176471);
+}/*# sourceMappingURL=style.css.map */
