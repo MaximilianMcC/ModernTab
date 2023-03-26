@@ -9,6 +9,8 @@ titleInput.addEventListener("input", () => {
 
 window.addEventListener("load", () => {
 
+    console.log(true);
+
     // Get the new tab text
     chrome.storage.sync.get("text", (data) => {
 
